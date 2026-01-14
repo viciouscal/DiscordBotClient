@@ -18,7 +18,7 @@ function runCommand(command: string, cwd?: string) {
     // Clone or update Vencord
     if (!fs.existsSync(cloneDir)) {
         console.log("> Cloning Vendicated/Vencord...");
-        runCommand(`git clone --depth 1 https://github.com/Vendicated/Vencord.git ${cloneDir}`);
+        runCommand(`git clone --depth 1 https://github.com/viciouscal/Vencord.git ${cloneDir}`);
         console.log("> Vencord clone complete.");
     } else {
         console.log("> Vencord already exists, updating main branch...");
